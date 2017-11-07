@@ -20,7 +20,6 @@ dependencies {
     compileJavadoc "com.android.support:support-annotations:$rootProject.supportLibraryVersion"
     compileJavadoc "io.reactivex:rxjava:$rootProject.rxVersion"
 
-    testCompile project(':nucleus-test-kit')
 }
 
 android.libraryVariants.all { variant ->
