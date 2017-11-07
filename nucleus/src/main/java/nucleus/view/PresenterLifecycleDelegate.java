@@ -45,6 +45,10 @@ public final class PresenterLifecycleDelegate<P extends Presenter> {
         this.presenterFactory = presenterFactory;
     }
 
+    public boolean hasPresenter() {
+        return presenter != null;
+    }
+
     /**
      * {@link ViewWithPresenter#getPresenter()}
      */
